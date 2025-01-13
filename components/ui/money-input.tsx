@@ -1,6 +1,7 @@
 import React, { forwardRef } from "react";
 import { NumericFormat, NumericFormatProps } from "react-number-format";
-import { Input, InputProps } from "./input";
+import { Input } from "./input";
+import { InputProps } from "react-day-picker";
 
 export const MoneyInput = forwardRef(
   (
@@ -20,5 +21,4 @@ export const MoneyInput = forwardRef(
     );
   },
 );
-
 MoneyInput.displayName = "MoneyInput";
